@@ -1,0 +1,34 @@
+{
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "reactjs",
+  "description": "-it does HMR(hot Module Replacement){read more}\r -Buldinng dev\r -parcel is keeping track of everything you are doing in your project\r -because of caching it gives faster build for you\r -parcel basically do image optimazation for you\r -suppose you are doing optimization parcel will do Minification also.\r -Bundling all the files for us\r -Parcel will also compress file for us,removes a white spaces for us\r -react is not the only thing that makes it fast but also there are so many things like bundlers makes the react fast.\r -Bunlers are like parcel,Webpack,etc and many more makes the things work faster.\r -parcel is not using these all thins by it's own it is using the libraries that are present in node_modules.\r --suppose modi is react and parcel is amit shah and other ministers are the libraries they all make the whole react thing faster.-\r -parcel is consistent hashing.(read more)\r -it is also doing Code splaitting for u.(read more)\r -parcel is doing Differential bundling.(read more)\r -parcel is doing Diagnostic of your app BTS\r -Parcel is doing error Handling.\r -parcel let your code work with https from http.\r =parcel can do tree shaking also(read more)",
+  "version": "1.0.0",
+  
+  "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BishveshTripathi/namaste-react.git"
+  },
+  "keywords": [
+    "react",
+    "namste",
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/BishveshTripathi/namaste-react/issues"
+  },
+  "homepage": "https://github.com/BishveshTripathi/namaste-react#readme"
+}
