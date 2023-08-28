@@ -1,0 +1,57 @@
+/* Header Styling */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.logo {
+  width: 80px;
+  border: 3px solid red;
+  border-radius: 60%;
+}
+.nav-items {
+  margin-top: 13px;
+}
+.nav-items ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+li {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Body Styling -Cards*/
+
+.search {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.res-card {
+  width: 250px;
+  height: 360px;
+  /* border: 1px solid blue; */
+  margin-left: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.res_logo {
+  padding-top: 5px;
+  width: 240px;
+  border-radius: 10px;
+}
+.res-container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  column-gap: 100px;
+  row-gap: 50px;
+  justify-content: center;
+}
